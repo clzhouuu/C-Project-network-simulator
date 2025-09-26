@@ -1,0 +1,9 @@
+#Network simulator parameters
+
+EndHost 0 1001 10 FIFO
+EndHost 1 1002 10 FILO
+Packet 1002 1001 1024 1 1
+Packet 1001 1002 1024 2 1
+Packet 1001 1002 1024 2 1
+Link 0 1 1 1 10
+Link 1 0 1 1 10
